@@ -13,9 +13,10 @@ public class Store {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+
     private String address;
     private String phoneNumber;
-    private Long zipCode;
+    private Long   zipCode;
     private String city;
     private String country;
 }

@@ -29,7 +29,7 @@ public class StoreController {
         return service.updateStore(store);
     }
 
-    @DeleteMapping("delete/store")
+    @DeleteMapping("delete/store/{id}")
     public void deleteStore(@PathVariable Long id){
         service.deleteStore(id);
     }
