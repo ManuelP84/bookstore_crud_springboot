@@ -20,7 +20,7 @@ public class BookController {
     }
 
     @PostMapping("save/book")
-    public Book BooksaveBook(@RequestBody Book book) {
+    public Book saveBook(@RequestBody Book book) {
         return service.saveBook(book);
     }
 

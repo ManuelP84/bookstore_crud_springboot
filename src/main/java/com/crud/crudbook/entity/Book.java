@@ -18,5 +18,4 @@ public class Book {
     private Integer numberPages;
     private String    language;
     private LocalDate datePublished;
-
 }
